@@ -73,6 +73,13 @@
 }
 
 @media screen and (max-width: 576px) {
+    .grid-col-11-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .toggle-display-block {
+        display: none;
+    }
     .navbar {
         justify-content: space-between;
         border: 0.5px solid var(--Orange, #FEA301);
@@ -292,6 +299,133 @@ main {
     padding-top: 60px;
     padding-bottom: 60px;
     background: linear-gradient(135deg, #e4e7ee 0%, #ffffff 100%);
+
+}
+.threeheading{
+color: #000;
+text-align: center;
+font-family: Quicksand;
+font-size: 2.8rem;
+font-style: normal;
+font-weight: 700;
+line-height: 57.5px;
+margin-bottom: 80px;
+}
+.s1h{
+    color: #000;
+  align-items: center;
+   font-family: Quicksand;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 38.347px;
+   padding: 0px 39px 39px 39px;
+  
+}
+.s1p{
+    width: 433.057px;
+height: 75.736px;
+flex-shrink: 0;
+color: #666;
+
+font-family: Raleway;
+font-size: 15.339px;
+font-style: normal;
+font-weight: 500;
+line-height: 28.761px;
+padding-left: 39px;
+}
+.s2h{
+    color: #000;
+font-family: Quicksand;
+font-size: 15.339px;
+font-style: normal;
+font-weight: 700;
+line-height: 28.761px; 
+padding-left: 2.4rem;
 }
 
+.w-80 {
+    width: 80%;
+}
+
+.m-c {
+    margin: 0 auto 0 auto;
+}
+.m {
+    margin: 0.25rem;
+}
+
+
+.rnd-1 {
+    border-radius: 10px;
+}
+
+
+.story{
+    border-radius: 16px 16px 0px 0px;
+    margin-right: 0.3rem;
+   height: 337px;
+   flex-shrink: 0;
+
+}
+.sbr{
+    border-radius: 16px 16px 0px 0px;
+}
+.btns1{
+    position: relative;
+    top: -20px;
+    left: 30px;
+    width: 174.51px;
+    height: 38.347px;
+    padding: 9.587px 18.876px 10.545px 19.174px;
+    border-radius: 47.934px;
+    background: #95B226;
+    border: #95B226;
+    color: #FFF;
+}
+.btns2{
+    position: relative;
+    top: -20px;
+    left: 30px;
+    width: 174.51px;
+    height: 38.347px;
+    padding: 9.587px 18.876px 10.545px 19.174px;
+    border-radius: 47.934px;
+    background: #bf4de1;
+    border: #cc43db;
+    color: #FFF;
+}
+
+.btns3{
+    position: relative;
+    top: -25px;
+    left: 30px;
+    width: 174.51px;
+    height: 38.347px;
+    padding: 9.587px 18.876px 10.545px 19.174px;
+    border-radius: 47.934px;
+    background: #4dabe1;
+    border: #4c96dc;
+    color: #FFF;
+}
+.p-2 {
+    padding: 0.2rem;
+}
+
+.sdw {
+    box-shadow: grey 0 1px 4px;
+}
+
+.toggle-display-block {
+    display: block;
+    width: 540.267px;
+    height: 630.518px;
+    flex-shrink: 0;
+}
+
+.grid-col-11-1, .grid-col-11 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
